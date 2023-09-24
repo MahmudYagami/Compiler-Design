@@ -5,15 +5,24 @@ int main()
 {
     string s;
     cin>>s;
+    bool ct=false;
 
 
-     if(s >="A" && s <="Z")
+     if(s >="0" && s <="9")
         {
-            cout<<"Not Numoric"<<endl;
+            ct=true;
         }
         else
         {
-            cout<<"Numoric"<<endl;
+            ct=false;
         }
+    if(ct==true)
+    {
+        cout<<"Numeric"<<endl;
+    }
+    else
+    {
+        cout<<"Not Numeric"<<endl;
+    }
 
 }
