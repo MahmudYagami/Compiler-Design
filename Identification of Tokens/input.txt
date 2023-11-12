@@ -1,3 +1,0 @@
-int string 5 + 10 = 15 - *
-
-void
