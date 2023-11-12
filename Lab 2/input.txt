@@ -1,0 +1,6 @@
+int x = 96 ;
+int y = 6 ;
+float ans = x + y ;
+4loat a=8;
+float b=9;
+cout << ans ;
